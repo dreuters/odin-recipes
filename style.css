@@ -1,0 +1,33 @@
+/* style.css */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsalmon;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.center-block {
+    display: block;
+    text-align: center;
+}
+
+.main.title {
+    text-decoration: underline;
+}
+
+.main-image {
+    width: 500px;
+    height: auto;
+}
+
+.step-image {
+    width: 300px;
+    height: auto;
+}
+
+td {
+    width: 300px;
+}
