@@ -11,7 +11,42 @@ body {
     background-color: lightsalmon;
     width: 300px;
     margin: 16px auto;
-    border: 2px solid rgb(235, 96, 50);
+    border: 2px solid rgb(154, 52, 17);
+}
+
+.recipe-grid {
+    text-align: center;
+    /* border: 2px dotted red; */
+    padding: 0px;
+}
+
+.recipe-cell {
+    /* border: 2px dotted green; */
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+a.recipe-name {
+    font-weight: 700;
+    color: rgb(154, 52, 17);
+}
+
+a.recipe-name:hover {
+    color: rgb(237, 113, 64);
+}
+
+a.recipe-name {
+    font-weight: 700;
+    color: rgb(154, 52, 17);
+}
+
+.recipe-grid-image {
+    width: 200px;
+    height: auto;
+    border: 2px solid rgb(154, 52, 17); 
+    display: block;
+    margin-bottom: 10px;
 }
 
 .recipe-main-image,
